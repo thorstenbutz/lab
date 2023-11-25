@@ -1,0 +1,23 @@
+﻿EmployeeNumber;Location;LabDomain;GivenName;SurName;SamAccountName;Password;EmailAddress;Name;DisplayName;Department;Title;City;Country;Company;HomePage;Description
+101;Redmond;contoso;Bill;Gates;GateB;Pa$$w0rd;GateB@contoso.com;Bill Gates;Gates, Bill;Hall of fame;Founder;Seattle;US;Contoso;https://www.contoso.com;Redmond
+102;Belltown;contoso;Paul;Allen;AlleP;Pa$$w0rd;AlleP@contoso.com;Paul Allen;Allen, Paul;Hall of fame;Founder;Seattle;US;Contoso;https://www.contoso.com;Belltown
+103;CapitolHill ;contoso;Andrea;Lewis;LewiA;Pa$$w0rd;LewiA@contoso.com;Andrea Lewis;Lewis, Andrea;Engineering;Technical Writer;Seattle;US;Contoso;https://www.contoso.com;CapitolHill 
+104;Eastlake;contoso;Maria;Wood;WoodM;Pa$$w0rd;WoodM@contoso.com;Maria Wood;Wood, Maria;Finance;Bookkeeper;Seattle;US;Contoso;https://www.contoso.com;Eastlake
+105;Fremont;contoso;Steve;Ballmer;BallS;Pa$$w0rd;BallS@contoso.com;Steve Ballmer;Ballmer, Steve;Hall of fame;Former CEO;Seattle;US;Contoso;https://www.contoso.com;Fremont
+106;Greenwood;contoso;Satya;Nadella;NadeS;Pa$$w0rd;NadeS@contoso.com;Satya Nadella;Nadella, Satya;Board;CEO;Seattle;US;Contoso;https://www.contoso.com;Greenwood
+107;LakeCity;contoso;Mark;Russinovich;RussM;Pa$$w0rd;RussM@contoso.com;Mark Russinovich;Russinovich, Mark;Cloud Services;CTO Azure;Seattle;US;Contoso;https://www.contoso.com;LakeCity
+108;Northgate;contoso;Gwen;Houston;HousG;Pa$$w0rd;HousG@contoso.com;Gwen Houston;Houston, Gwen;Management;EOO;Seattle;US;Contoso;https://www.contoso.com;Northgate
+109;Pinehurst;contoso;Amy;Hood;HoodA;Pa$$w0rd;HoodA@contoso.com;Amy Hood;Hood, Amy;Finance;CFO;Seattle;US;Contoso;https://www.contoso.com;Pinehurst
+110;Sodo;contoso;Reid;Hoffman;HoffR;Pa$$w0rd;HoffR@contoso.com;Reid Hoffman;Hoffman, Reid;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;Sodo
+111;Wallingford;contoso;Hugh;Johnston;JohnH;Pa$$w0rd;JohnH@contoso.com;Hugh Johnston;Johnston, Hugh;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;Wallingford
+112;Ballard;contoso;Teri;List-Stoll;ListT;Pa$$w0rd;ListT@contoso.com;Teri List-Stoll;List-Stoll, Teri;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;Ballard
+113;ColumbiaCity;contoso;Sandar;Peterson;PeteS;Pa$$w0rd;PeteS@contoso.com;Sandar Peterson;Peterson, Sandar;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;ColumbiaCity
+114;DennyRegrade ;contoso;Penny;Pritzker;PritP;Pa$$w0rd;PritP@contoso.com;Penny Pritzker;Pritzker, Penny;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;DennyRegrade 
+115;Laurelhurst;contoso;Carlos;Rodriguez;RodrC;Pa$$w0rd;RodrC@contoso.com;Carlos Rodriguez;Rodriguez, Carlos;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;Laurelhurst
+116;Leschi;contoso;Charles;Scharf;SchaC;Pa$$w0rd;SchaC@contoso.com;Charles Scharf;Scharf, Charles;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;Leschi
+117;Madrona;contoso;John;Stanton;StanJ;Pa$$w0rd;StanJ@contoso.com;John Stanton;Stanton, John;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;Madrona
+118;MapleLeaf;contoso;John;Thompson;ThomJ;Pa$$w0rd;ThomJ@contoso.com;John Thompson;Thompson, John;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;MapleLeaf
+119;PioneerSquare;contoso;Emma;Walmsley;WalmE;Pa$$w0rd;WalmE@contoso.com;Emma Walmsley;Walmsley, Emma;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;PioneerSquare
+120;PhinneyRidge;contoso;Padmasree;Warrior;WarrP;Pa$$w0rd;WarrP@contoso.com;Padmasree Warrior;Warrior, Padmasree;Board;Board member;Seattle;US;Contoso;https://www.contoso.com;PhinneyRidge
+121;QueenAnneHill;contoso;Dave;Cutler;CutlD;Pa$$w0rd;CutlD@contoso.com;Dave Cutler;Cutler, Dave;Technical Fellow;Software Engineer;Seattle;US;Contoso;https://www.contoso.com;QueenAnneHill
+122;Wedgewood;contoso;Anders;Hejlsberg;HejlA;Pa$$w0rd;HejlA@contoso.com;Anders Hejlsberg;Hejlsberg, Anders;Technical Fellow;Software Engineer;Seattle;US;Contoso;https://www.contoso.com;Wedgewood

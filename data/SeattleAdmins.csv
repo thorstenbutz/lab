@@ -1,0 +1,23 @@
+﻿EmployeeNumber;Location;Labcomputer;LabDomain;GivenName;SurName;DisplayName;SamAccountName;Password;RDP-Adress;PORT;EmailAddress;Name;Department;Title;City;Country;Company;HomePage;Description
+1;Redmond;sea-cl1;contoso;Admin;Redmond;;RedAdm;Pa$$w0rd;1.1.1.1;5005;DenAdm@contoso.com;RedAdm;IT Support;Instructor;Seattle;US;Contoso;https://www.contoso.com;Redmond
+2;Belltown;sea-cl2;contoso;Admin;Belltown;;BelAdm;Pa$$w0rd;1.1.1.1;5009;LauAdm@contoso.com;BelAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Belltown
+3;CapitolHill ;sea-cl3;contoso;Admin;CapitolHill ;;CapAdm;Pa$$w0rd;1.1.1.1;5013;LesAdm@contoso.com;CapAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;CapitolHill 
+4;Eastlake;sea-cl5;contoso;Admin;Eastlake;;EasAdm;Pa$$w0rd;1.1.1.1;5017;MadAdm@contoso.com;EasAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Eastlake
+5;Fremont;sea-cl6;contoso;Admin;Fremont;;FreAdm;Pa$$w0rd;1.1.1.1;5021;MapAdm@contoso.com;FreAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Fremont
+6;Greenwood;sea-cl7;contoso;Admin;Greenwood;;GreAdm;Pa$$w0rd;1.1.1.1;5025;PioAdm@contoso.com;GreAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Greenwood
+7;LakeCity;sea-cl8;contoso;Admin;LakeCity;;LakAdm;Pa$$w0rd;1.1.1.1;;PhiAdm@contoso.com;LakAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;LakeCity
+8;Northgate;sea-cl9;contoso;Admin;Northgate;;NorAdm;Pa$$w0rd;1.1.1.1;;QueAdm@contoso.com;NorAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Northgate
+9;Pinehurst;sea-cl10;contoso;Admin;Pinehurst;;PinAdm;Pa$$w0rd;1.1.1.1;;WedAdm@contoso.com;PinAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Pinehurst
+10;Sodo;sea-cl11;contoso;Admin;Sodo;;SodAdm;Pa$$w0rd;1.1.1.1;;RedAdm@contoso.com;SodAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Sodo
+11;Wallingford;sea-cl12;contoso;Admin;Wallingford;;WalAdm;Pa$$w0rd;1.1.1.1;;BelAdm@contoso.com;WalAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Wallingford
+12;Ballard;sea-cl13;contoso;Admin;Ballard;;BalAdm;Pa$$w0rd;1.1.1.1;;CapAdm@contoso.com;BalAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Ballard
+13;ColumbiaCity;sea-cl14;contoso;Admin;ColumbiaCity;;ColAdm;Pa$$w0rd;1.1.1.1;;EasAdm@contoso.com;ColAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;ColumbiaCity
+14;DennyRegrade ;sea-cl15;contoso;Admin;DennyRegrade ;;DenAdm;Pa$$w0rd;1.1.1.1;;DenAdm@contoso.com;DenAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;DennyRegrade 
+15;Laurelhurst;sea-cl16;contoso;Admin;Laurelhurst;;LauAdm;Pa$$w0rd;1.1.1.1;;LauAdm@contoso.com;LauAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Laurelhurst
+16;Leschi;sea-cl17;contoso;Admin;Leschi;;LesAdm;Pa$$w0rd;1.1.1.1;;LesAdm@contoso.com;LesAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Leschi
+17;Madrona;sea-cl18;contoso;Admin;Madrona;;MadAdm;Pa$$w0rd;1.1.1.1;;MadAdm@contoso.com;MadAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Madrona
+18;MapleLeaf;sea-cl19;contoso;Admin;MapleLeaf;;MapAdm;Pa$$w0rd;1.1.1.1;;MapAdm@contoso.com;MapAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;MapleLeaf
+19;PioneerSquare;sea-cl20;contoso;Admin;PioneerSquare;;PioAdm;Pa$$w0rd;1.1.1.1;;PioAdm@contoso.com;PioAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;PioneerSquare
+20;PhinneyRidge;sea-cl21;contoso;Admin;PhinneyRidge;;PhiAdm;Pa$$w0rd;1.1.1.1;;PhiAdm@contoso.com;PhiAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;PhinneyRidge
+21;QueenAnneHill;sea-cl22;contoso;Admin;QueenAnneHill;;QueAdm;Pa$$w0rd;1.1.1.1;;QueAdm@contoso.com;QueAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;QueenAnneHill
+22;Wedgewood;sea-cl23;contoso;Admin;Wedgewood;;WedAdm;Pa$$w0rd;1.1.1.1;;WedAdm@contoso.com;WedAdm;IT Support;Student;Seattle;US;Contoso;https://www.contoso.com;Wedgewood

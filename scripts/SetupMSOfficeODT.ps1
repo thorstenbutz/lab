@@ -5,7 +5,7 @@
 ##################################################################
 
 ## Get installer file 
-$uri = 'ttps://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_16227-20258.exe'
+$uri ='https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_16731-20354.exe'
 $installerFile = $env:TEMP + '\' + $uri.Split('/')[-1]
 Invoke-RestMethod -UseBasicParsing -Uri $uri -OutFile $installerFile
 
