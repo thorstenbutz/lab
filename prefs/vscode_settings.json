@@ -11,8 +11,9 @@
   "powershell.integratedConsole.focusConsoleOnExecute": false,
   "files.defaultLanguage": "powershell",
   "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
-  "powershell.buttons.showPanelMovementButtons": true,
+  "powershell.buttons.showPanelMovementButtons": true,  
   // "powershell.codeFormatting.autoCorrectAliases": true,
+  
 
   // Encoding
   "[powershell]": {
@@ -23,8 +24,9 @@
   // Disable "annoying" snippets and suggestions
   "editor.snippetSuggestions": "bottom", // "none" disables these suggestions
   "editor.parameterHints.enabled": false,
-  "powershell.scriptAnalysis.enable": false,
-  
+  "powershell.scriptAnalysis.enable": false,  
+  "powershell.helpCompletion": "Disabled", // Disable comment based help completion style triggered by typing 2 hashes
+
   // Editor 
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "modifications",
