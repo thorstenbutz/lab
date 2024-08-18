@@ -1,0 +1,42 @@
+﻿Name;samAccountName;title;Company;Description;EmployeeId;DisplayName;Mailnickname;UserPrincipalName;City;CompanyName;Country;Department;JobTitle;OfficeLocation;mobilePhone;preferredLanguage
+Redmond;redmond;Support Engineer;Contoso;Redmond;1;Redmond;redmond;redmond@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Redmond;+1 (847) 067-3625;en-US
+Bellevue;bellevue;Support Engineer;Contoso;Bellevue;2;Bellevue;bellevue;bellevue@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Bellevue;+1 (916) 729-5766;en-US
+Sodo;sodo;Support Engineer;Contoso;Sodo;3;Sodo;sodo;sodo@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Sodo;+1 (578) 936-7190;en-US
+Eastlake;eastlake;Support Engineer;Contoso;Eastlake;4;Eastlake;eastlake;eastlake@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Eastlake;+1 (273) 320-7317;en-US
+Fremont;fremont;Support Engineer;Contoso;Fremont;5;Fremont;fremont;fremont@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Fremont;+1 (753) 564-8703;en-US
+Greenwood;greenwood;Support Engineer;Contoso;Greenwood;6;Greenwood;greenwood;greenwood@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Greenwood;+1 (403) 928-6788;en-US
+Madrona;madrona;Support Engineer;Contoso;Madrona;7;Madrona;madrona;madrona@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Madrona;+1 (843) 249-5945;en-US
+Northgate;northgate;Support Engineer;Contoso;Northgate;8;Northgate;northgate;northgate@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Northgate;+1 (064) 602-9980;en-US
+Pinehurst;pinehurst;Support Engineer;Contoso;Pinehurst;9;Pinehurst;pinehurst;pinehurst@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Pinehurst;+1 (753) 564-8703;en-US
+Leschi;leschi;Support Engineer;Contoso;Leschi;10;Leschi;leschi;leschi@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Leschi;+1 (403) 928-6788;en-US
+Wedgewood;wedgewood;Support Engineer;Contoso;Wedgewood;11;Wedgewood;wedgewood;wedgewood@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Wedgewood;+1 (843) 249-5945;en-US
+CapitolHill ;capitolhill ;Support Engineer;Contoso;CapitolHill ;12;CapitolHill ;capitolhill ;capitolhill@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;CapitolHill ;+1 (064) 602-9980;en-US
+ColumbiaCity;columbiacity;Support Engineer;Contoso;ColumbiaCity;13;ColumbiaCity;columbiacity;columbiacity@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;ColumbiaCity;+1 (701) 735-5824;en-US
+QueenAnneHill;queenaannehill;Support Engineer;Contoso;QueenAnneHill;14;QueenAnneHill;queenaannehill;queenannehill@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;QueenAnneHill;+1 (739) 999-8827;en-US
+Westminster;westminster;Support Engineer;Contoso;Westminster;21;Westminster;westminster;westminster@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Westminster;+44 (020) 7719 652;en-GB
+Barnet;barnet;Support Engineer;Contoso;Barnet;22;Barnet;barnet;barnet@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Barnet;+44 (020) 7719 677;en-GB
+Chelsea;chelsea;Support Engineer;Contoso;Chelsea;23;Chelsea;chelsea;chelsea@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Chelsea;+44 (020) 7719 640;en-GB
+Ealing;ealing;Support Engineer;Contoso;Ealing;24;Ealing;ealing;ealing@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Ealing;+44 (020) 7719 641;en-GB
+Fulham;fulham;Support Engineer;Contoso;Fulham;25;Fulham;fulham;fulham@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Fulham;+44 (020) 7719 642;en-GB
+Greenwich;greenwich;Support Engineer;Contoso;Greenwich;26;Greenwich;greenwich;greenwich@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Greenwich;+44 (020) 7719 643;en-GB
+Hackney;hackney;Support Engineer;Contoso;Hackney;27;Hackney;hackney;hackney@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Hackney;+44 (020) 7719 644;en-GB
+Islington;islington;Support Engineer;Contoso;Islington;28;Islington;islington;islington@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Islington;+44 (020) 7719 645;en-GB
+Kensington;kensington;Support Engineer;Contoso;Kensington;29;Kensington;kensington;kensington@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Kensington;+44 (020) 7719 646;en-GB
+Lambeth;lambeth;Support Engineer;Contoso;Lambeth;30;Lambeth;lambeth;lambeth@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Lambeth;+44 (020) 7719 647;en-GB
+Merton;merton;Support Engineer;Contoso;Merton;31;Merton;merton;merton@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Merton;+44 (020) 7719 648;en-GB
+Newham;newham;Support Engineer;Contoso;Newham;32;Newham;newham;newham@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Newham;+44 (020) 7719 649;en-GB
+Redbridge;redbridge;Support Engineer;Contoso;Redbridge;33;Redbridge;redbridge;redbridge@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Redbridge;+44 (020) 7719 650;en-GB
+Southwark;southwark;Support Engineer;Contoso;Southwark;34;Southwark;southwark;southwark@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Southwark;+44 (020) 7719 651;en-GB
+Bexley;bexley;Support Engineer;Contoso;Bexley;41;Bexley;bexley;bexley@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Bexley;+44 (020) 7719 653;en-GB
+Brent;brent;Support Engineer;Contoso;Brent;42;Brent;brent;brent@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Brent;+44 (020) 7719 654;en-GB
+Bromley;bromley;Support Engineer;Contoso;Bromley;43;Bromley;bromley;bromley@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Bromley;+44 (020) 7719 655;en-GB
+Camden;camden;Support Engineer;Contoso;Camden;44;Camden;camden;camden@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Camden;+44 (020) 7719 656;en-GB
+Croydon;croydon;Support Engineer;Contoso;Croydon;45;Croydon;croydon;croydon@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Croydon;+44 (020) 7719 657;en-GB
+Enfield;enfield;Support Engineer;Contoso;Enfield;46;Enfield;enfield;enfield@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Enfield;+44 (020) 7719 658;en-GB
+Hammersmith ;hammersmith ;Support Engineer;Contoso;Hammersmith ;47;Hammersmith ;hammersmith ;hammersmith@powershell.world ;London;Contoso;GB;London IT Support;Support Engineer;Hammersmith ;+44 (020) 7719 659;en-GB
+Haringey;haringey;Support Engineer;Contoso;Haringey;48;Haringey;haringey;haringey@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Haringey;+44 (020) 7719 660;en-GB
+Harrow;harrow;Support Engineer;Contoso;Harrow;49;Harrow;harrow;harrow@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Harrow;+44 (020) 7719 661;en-GB
+Havering;havering;Support Engineer;Contoso;Havering;50;Havering;havering;havering@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Havering;+44 (020) 7719 662;en-GB
+Hillingdon;hillingdon;Support Engineer;Contoso;Hillingdon;51;Hillingdon;hillingdon;hillingdon@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Hillingdon;+44 (020) 7719 663;en-GB
+Hounslow;hounslow;Support Engineer;Contoso;Hounslow;52;Hounslow;hounslow;hounslow@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Hounslow;+44 (020) 7719 664;en-GB
+Lewisham;lewisham;Support Engineer;Contoso;Lewisham;53;Lewisham;lewisham;lewisham@powershell.world;London;Contoso;GB;London IT Support;Support Engineer;Lewisham;+44 (020) 7719 665;en-GB
