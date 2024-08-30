@@ -45,3 +45,12 @@ Copy-Item -Path "C:\git\lab\etc\bginfo2.bgi" -Destination 'C:\depot\tools\bginfo
 New-ItemProperty -path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run' -Name 'BGInfo' -Value '"C:\depot\tools\BGInfo\Bginfo.exe" /accepteula /timer:0 c:\depot\tools\BGInfo\bginfo2.bgi'
 New-ItemProperty -path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Presentation' -Value 'C:\Windows\system32\PresentationSettings.exe /start'
 # New-ItemProperty -path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Presentation' -Value 'C:\Windows\system32\PresentationSettings.exe /start'
+
+if (Test-Path 'c:\git\lab\scripts\Update-InboxApp.ps1') { 
+    c:\git\lab\scripts\Update-InboxApp.ps1 -PackageFamilyName 'Microsoft.WindowsTerminal_8wekyb3d8bbwe'
+    c:\git\lab\scripts\Update-InboxApp.ps1 -PackageFamilyName 'Microsoft.DesktopAppInstaller_8wekyb3d8bbwe'    
+    Copy-Item 'c:\git\lab\etc\wt\wt_settings.json' $env:userprofile\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+    reg import 'c:\git\lab\etc\wt\wt_DefaultTerminalApplication.reg'
+}
+
+

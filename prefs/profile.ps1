@@ -17,9 +17,9 @@
         Import-Module -Name PSTimers -ErrorAction Stop
     } 
     catch {
-        if (!(Get-PackageProvider -Name nuget | ? Version -ge 2.8.5.201)) {            
-            Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force | Out-Null
-            Set-PackageSource -Name PSGallery -Trusted
+        Set-PackageSource -Name PSGallery -Trusted 
+        if (!(Get-PackageProvider -Name nuget -Force | ? Version -ge 2.8.5.201)) {            
+            Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force | Out-Null            
         }
         Find-Module -Name PSTimers | Install-Module -Force -scope CurrentUser
     }
