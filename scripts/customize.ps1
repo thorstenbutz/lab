@@ -55,7 +55,7 @@ if (Test-Path 'c:\git\lab\scripts\Update-InboxApp.ps1') {
 
 
 New-Item -Path 'c:\ps\training' -Force -ItemType Directory
-New-SmbShare -Path 'c:\ps\training' -ChangeAccess 'Everyone' -FullAccess 'Interactive'
+New-SmbShare -Name 'Training' -Path 'c:\ps\training' -ChangeAccess 'Everyone' -FullAccess 'Interactive'
 New-PSDrive -Name T -PSProvider FileSystem -Root "\\$($env:COMPUTERNAME)\training" -Persist
 
 c:\git\lab\scripts\SetupMSOffice.ps1
