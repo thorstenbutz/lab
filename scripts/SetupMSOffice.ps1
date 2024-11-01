@@ -8,7 +8,13 @@
 ## winget install --id Microsoft.OfficeDeploymentTool
 
 ## B: Get ODT manually (URI may require an update)
-$uri = 'https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_17830-20162.exe'
+## (Try to) Get direct download URI
+$iwrData = Invoke-WebRequest -UseBasicParsing -Uri 'https://www.microsoft.com/en-us/download/details.aspx?id=49117'
+$uri = $iwrData.Links.where({ $_.href -like 'https://download.microsoft.com/download*officedeploymenttool*.exe' }).href
+$uri | Write-Host -ForegroundColor Yellow
+
+## EXMAPLE URI
+## $uri = 'https://download.microsoft.com/download/2/7/A/27AF1BE6-DD20-4CB4-B154-EBAB8A7D4A7E/officedeploymenttool_18129-20030.exe'
 $installerFile = $env:TEMP + '\' + $uri.Split('/')[-1]
 Invoke-RestMethod -UseBasicParsing -Uri $uri -OutFile $installerFile
 

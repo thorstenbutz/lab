@@ -1,0 +1,2 @@
+## Custom settings v1 
+https://config.office.com/deploymentsettings
