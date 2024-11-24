@@ -39,7 +39,7 @@ function countdown {
           $halign -= 160
         } 
         else {
-          $message = ''
+          $message = ' '
         }  
     try {
         Import-Module -Name PSTimers -ErrorAction Stop

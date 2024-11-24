@@ -1,7 +1,7 @@
 ﻿##################################################################
 ## Office Deployment Tool
 ## https://www.microsoft.com/en-us/download/details.aspx?id=49117
-## Last change: 2024-08-30
+## Last change: 2024-11-01
 ##################################################################
 
 ## A: Get ODT via AppInstallerCLI/WinGet
@@ -26,7 +26,9 @@ Remove-Item -Path $installerFile  # Test-Path -Path $installerFile
 ## Setup Microsoft Office
 # & 'C:\Program Files\OfficeDeploymentTool\setup.exe' /configure 'C:\Program Files\OfficeDeploymentTool\configuration-Office2021Enterprise.xml'
 # Start-Process -Wait -FilePath 'C:\Program Files\OfficeDeploymentTool\setup.exe' -ArgumentList '/configure "C:\Program Files\OfficeDeploymentTool\configuration-Office2021Enterprise.xml"'
-$configFile = "$PSScriptRoot\configuration-Office2021Enterprise.xml"
+# $configFile = "$PSScriptRoot\configuration-Office2021Enterprise.xml"
+$configFile = "$PSScriptRoot\configuration-Office2024Enterprise.xml"
+
 if (Test-Path -Path $configFile) { 
     Start-Process -Wait -FilePath 'C:\Program Files\OfficeDeploymentTool\setup.exe' -ArgumentList "/configure $configFile"
 } else { 
