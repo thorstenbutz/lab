@@ -1,6 +1,12 @@
 Hostname;OS;Vendor;Location
 sea-cl1;Windows 11;Microsoft;Redmond
-sea-cl2;Windows 11;Microsoft;Belltown
-sea-cl3;Windows 11;Microsoft;CapitolHill 
+sea-cl2;Windows 11;Microsoft;Bellevue
+sea-cl3;Windows 11;Microsoft;Sodo
+sea-cl4;Windows 11;Microsoft;Eastlake
+sea-cl5;Windows 11;Microsoft;Fremont
+sea-cl6;Windows 11;Microsoft;Greenwood
+sea-cl7;Windows 11;Microsoft;Madrona
+sea-cl8;Windows 11;Microsoft;Northgate
+sea-cl9;Windows 11;Microsoft;Pinehurst
 dns.google;Linux;Dell;MountainView
 one.one.one.one;FreeBSD;Lenovo;Berkely
