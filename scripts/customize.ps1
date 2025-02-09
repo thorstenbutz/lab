@@ -58,6 +58,10 @@ New-Item -Path 'c:\ps\training' -Force -ItemType Directory
 New-SmbShare -Name 'Training' -Path 'c:\ps\training' -ChangeAccess 'Everyone' -FullAccess 'Interactive'
 New-PSDrive -Name T -PSProvider FileSystem -Root "\\$($env:COMPUTERNAME)\training" -Persist
 
+if ((Test-Path c:\al\bginfo.bgi) -and (Test-Path 'C:\git\lab\etc\bginfo2.bgi')) { 
+    Copy-Item -Path 'C:\git\lab\etc\bginfo2.bgi' -Destination 'c:\al\bginfo.bgi' -Force
+}
+
 c:\git\lab\scripts\SetupMSOffice.ps1
 
 HOSTNAME.EXE

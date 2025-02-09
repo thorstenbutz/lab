@@ -1,15 +1,15 @@
-EmployeeId	DisplayName	Mailnickname	UserPrincipalName	City	CompanyName	Country	Department	JobTitle	OfficeLocation	mobilePhone	preferredLanguage
-1	Redmond	redmond	redmond@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Redmond	+1 (847) 067-3625	en-US
-2	Bellevue	bellevue	bellevue@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Bellevue	+1 (916) 729-5766	en-US
-3	Sodo	sodo	sodo@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Sodo	+1 (578) 936-7190	en-US
-4	Eastlake	eastlake	eastlake@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Eastlake	+1 (273) 320-7317	en-US
-5	Fremont	fremont	fremont@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Fremont	+1 (753) 564-8703	en-US
-6	Greenwood	greenwood	greenwood@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Greenwood	+1 (403) 928-6788	en-US
-7	Madrona	madrona	madrona@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Madrona	+1 (843) 249-5945	en-US
-8	Northgate	northgate	northgate@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Northgate	+1 (064) 602-9980	en-US
-9	Pinehurst	pinehurst	pinehurst@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Pinehurst	+1 (753) 564-8703	en-US
-10	Leschi	leschi	leschi@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Leschi	+1 (403) 928-6788	en-US
-11	Wedgewood	wedgewood	wedgewood@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	Wedgewood	+1 (843) 249-5945	en-US
-12	CapitolHill 	capitolhill 	capitolhill@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	CapitolHill 	+1 (064) 602-9980	en-US
-13	ColumbiaCity	columbiacity	columbiacity@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	ColumbiaCity	+1 (701) 735-5824	en-US
-14	QueenAnneHill	queenaannehill	queenannehill@powershell.world	Seattle	Contoso	US	Seattle IT Support	Support Engineer	QueenAnneHill	+1 (739) 999-8827	en-US
+﻿EmployeeId;DisplayName;Mailnickname;UserPrincipalName;City;CompanyName;Country;Department;JobTitle;OfficeLocation;mobilePhone;preferredLanguage
+1;Redmond;redmond;redmond@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Redmond;+1 (847) 067-3625;en-US
+2;Bellevue;bellevue;bellevue@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Bellevue;+1 (916) 729-5766;en-US
+3;Sodo;sodo;sodo@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Sodo;+1 (578) 936-7190;en-US
+4;Eastlake;eastlake;eastlake@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Eastlake;+1 (273) 320-7317;en-US
+5;Fremont;fremont;fremont@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Fremont;+1 (753) 564-8703;en-US
+6;Greenwood;greenwood;greenwood@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Greenwood;+1 (403) 928-6788;en-US
+7;Madrona;madrona;madrona@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Madrona;+1 (843) 249-5945;en-US
+8;Northgate;northgate;northgate@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Northgate;+1 (064) 602-9980;en-US
+9;Pinehurst;pinehurst;pinehurst@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Pinehurst;+1 (753) 564-8703;en-US
+10;Leschi;leschi;leschi@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Leschi;+1 (403) 928-6788;en-US
+11;Wedgewood;wedgewood;wedgewood@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;Wedgewood;+1 (843) 249-5945;en-US
+12;CapitolHill ;capitolhill ;capitolhill@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;CapitolHill ;+1 (064) 602-9980;en-US
+13;ColumbiaCity;columbiacity;columbiacity@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;ColumbiaCity;+1 (701) 735-5824;en-US
+14;QueenAnneHill;queenaannehill;queenannehill@powershell.world;Seattle;Contoso;US;Seattle IT Support;Support Engineer;QueenAnneHill;+1 (739) 999-8827;en-US

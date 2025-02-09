@@ -40,3 +40,15 @@ Havering
 Hillingdon
 Hounslow
 Lewisham
+
+
+## More Seattle districts ##
+Wallingford
+Ballard
+DennyRegrade
+Laurelhurst
+MapleLeaf
+PioneerSquare
+PhinneyRidge
+Delridge
+LakeCity
