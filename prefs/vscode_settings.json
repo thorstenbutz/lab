@@ -6,6 +6,7 @@
   "terminal.integrated.fontSize": 23,
   "debug.openDebug": "neverOpen",
   "editor.tabCompletion": "on",
+  "editor.stickyScroll.enabled": false,
 
   // PowerShell settings
   "powershell.integratedConsole.focusConsoleOnExecute": false,

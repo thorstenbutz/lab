@@ -1,0 +1,20 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "f8",
+        "command": "PowerShell.RunSelection",
+        // "when": "editorTextFocus && editorLangId == 'markdown'"
+        "when": "editorTextFocus'"
+      },
+    {
+        "key": "f7",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.terminal.clear",
+                "PowerShell.RunSelection"
+            ]
+        },
+        "when": "editorTextFocus && editorLangId == 'powershell'"
+    }
+]

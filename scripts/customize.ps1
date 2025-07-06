@@ -1,5 +1,17 @@
 ﻿#Requires -RunAsAdministrator
 
+<## Command encoding (example)
+
+[Convert]::ToBase64String(
+[System.Text.Encoding]::Unicode.GetBytes(
+  "Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\MobilePC\AdaptableSettings\' -Name 'SkipBatteryCheck' -Value 1 -type 'DWORD'"
+  )
+) | Set-Clipboard
+
+New-ItemProperty -path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Presentation' -Value "PowerShell -Command "& { Set-ItemProperty -Path 'Registry::HKEY_CURRENT_USER\Software\Microsoft\MobilePC\AdaptableSettings\' -Name 'SkipBatteryCheck' -Value 1 -type 'DWORD' }""
+
+##>
+
 function Test-Admin {
     $identity  = [Security.Principal.WindowsIdentity]::GetCurrent()
     $principal = [Security.Principal.WindowsPrincipal]::new($identity)
@@ -42,6 +54,7 @@ if ($testWebDAV -and !(Test-Path -Path s:)) {
 AcceptEulaSysinternals 
 Copy-Item -Path 'C:\depot\tools\Sysinternals\Bginfo.*' -Destination 'C:\depot\tools\bginfo'
 Copy-Item -Path "C:\git\lab\etc\bginfo2.bgi" -Destination 'C:\depot\tools\bginfo'
+New-ItemProperty -path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'SkipBatteryCheck' -Value "PowerShell.exe -encodedcommand UwBlAHQALQBJAHQAZQBtAFAAcgBvAHAAZQByAHQAeQAgAC0AUABhAHQAaAAgACcAUgBlAGcAaQBzAHQAcgB5ADoAOgBIAEsARQBZAF8AQwBVAFIAUgBFAE4AVABfAFUAUwBFAFIAXABTAG8AZgB0AHcAYQByAGUAXABNAGkAYwByAG8AcwBvAGYAdABcAE0AbwBiAGkAbABlAFAAQwBcAEEAZABhAHAAdABhAGIAbABlAFMAZQB0AHQAaQBuAGcAcwBcACcAIAAtAE4AYQBtAGUAIAAnAFMAawBpAHAAQgBhAHQAdABlAHIAeQBDAGgAZQBjAGsAJwAgAC0AVgBhAGwAdQBlACAAMQAgAC0AdAB5AHAAZQAgACcARABXAE8AUgBEACcA" ## Updated 2025-07-06
 New-ItemProperty -path 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run' -Name 'BGInfo' -Value '"C:\depot\tools\BGInfo\Bginfo.exe" /accepteula /timer:0 c:\depot\tools\BGInfo\bginfo2.bgi'
 New-ItemProperty -path 'HKLM:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Presentation' -Value 'C:\Windows\system32\PresentationSettings.exe /start'
 # New-ItemProperty -path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run' -Name 'Presentation' -Value 'C:\Windows\system32\PresentationSettings.exe /start'

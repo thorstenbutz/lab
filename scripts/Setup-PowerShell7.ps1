@@ -6,6 +6,7 @@
  
 ## Quick'n dirty
 iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI -Preview"
+iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI -Quiet -AddExplorerContextMenu -EnablePSRemoting -Preview"
 
 ## Setup PwSh 
  Invoke-RestMethod -uri 'https://aka.ms/install-powershell.ps1' -UseBasicParsing -OutFile 'install-powershell.ps1'
