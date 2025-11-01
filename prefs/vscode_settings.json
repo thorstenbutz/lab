@@ -7,12 +7,15 @@
   "debug.openDebug": "neverOpen",
   "editor.tabCompletion": "on",
   "editor.stickyScroll.enabled": false,
+  "editor.mouseWheelZoom": true,
 
   // PowerShell settings
   "powershell.integratedConsole.focusConsoleOnExecute": false,
+  //"powershell.integratedConsole.startInBackground": true,
   "files.defaultLanguage": "powershell",
   "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
   "powershell.buttons.showPanelMovementButtons": true,  
+  "powershell.sideBar.CommandExplorerVisibility": true,
   // "powershell.codeFormatting.autoCorrectAliases": true,
   
 

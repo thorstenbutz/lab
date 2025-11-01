@@ -1,18 +1,25 @@
-// Place your key bindings in this file to override the defaults
+// Override for PowerShell, to compensate for the following bugs:
+// * https://github.com/PowerShell/PSReadLine/issues/841
+// * https://github.com/PowerShell/PowerShell/issues/19479
 [
     {
         "key": "f8",
         "command": "PowerShell.RunSelection",
-        // "when": "editorTextFocus && editorLangId == 'markdown'"
-        "when": "editorTextFocus'"
-      },
+        //"when": "editorTextFocus && editorLangId == 'markdown'"
+        "when": "editorTextFocus"
+    },
     {
         "key": "f7",
         "command": "runCommands",
         "args": {
             "commands": [
-                "workbench.action.terminal.clear",
-                "PowerShell.RunSelection"
+                // "workbench.action.terminal.clear",
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+                    "args": {
+                        "text": "\u000c" // Ctrl-L (FF)            
+                    }
+                }
             ]
         },
         "when": "editorTextFocus && editorLangId == 'powershell'"

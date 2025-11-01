@@ -6,6 +6,13 @@
 ####################################################################
 
 $password = 'Pa$$w0rd'
-$hash = (Get-FileHash -A 'SHA1' -InputStream ([IO.MemoryStream]::new([Text.Encoding]::UTF8.GetBytes($password)))).Hash
+
+$hash = (Get-FileHash -A 'SHA1' -InputStream (
+  [IO.MemoryStream]::new([Text.Encoding]::UTF8.GetBytes($password)))
+).Hash
+
 $splitA,$splitB = $hash -split '(?<=^.{5})'
-(((Invoke-RestMethod -UseBasicParsing -Uri "https://api.pwnedpasswords.com/range/$splitA") -split '\r\n' -like "$splitB*") -split ':')[-1]
+
+$Uri = "https://api.pwnedpasswords.com/range/$splitA"
+(((Invoke-RestMethod -UseBasicParsing -Uri $Uri) -split 
+  '\r\n' -like "$splitB*") -split ':')[-1]
